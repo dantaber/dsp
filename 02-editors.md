@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Nano for now, but I might switch to emacs. Nano is definitely the easiest and simplest. But emacs might be better because it's also a graphical editor.
 
 --
 
@@ -89,6 +89,7 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I'll probably learn emacs for the same reason - it would be nice to use the same for text and graphics. I've used Spyder in the past and it felt very intuitive (but possibly more limited?) As for customizing emacs ... I'll get back to you on that one.
+
 
  
