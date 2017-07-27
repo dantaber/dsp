@@ -19,17 +19,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > **CHEAT SHEET**
-**cd**: change directory
-**pwd**: show current directory
-**mkdir**: create directory
-**rmdir**: delete directory
-**touch**: create a file
-**rm**: deleting a file
-**mv**: renaming a file
-**ls**: listing hidden files
-**cp**: copying a file from one directory to another
-**less**: display a file
+> > **CHEAT SHEET**  
+**cd**: change directory  
+**pwd**: show current directory  
+**mkdir**: create directory  
+**rmdir**: delete directory  
+**touch**: create a file  
+**rm**: deleting a file  
+**mv**: renaming a file  
+**ls**: listing hidden files  
+**cp**: copying a file from one directory to another  
+**less**: display a file  
 
 
 ---
@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 'ls' - lists files
-`ls -a` - list all files including hidden files
-`ls -l` - list all files in long format 
-`ls -lh` - list all files in long format, with readable file size
-`ls -lah` - list all files, including hidden, in long format with readable file size
-`ls -t` - list files sorted by time and date
-`ls -Glp` - list files in long format, marking directories with '/' 
+> > `ls` - lists files  
+`ls -a` - list all files including hidden files  
+`ls -l` - list all files in long format     
+`ls -lh` - list all files in long format, with readable file size  
+`ls -lah` - list all files, including hidden, in long format with readable file size  
+`ls -t` - list files sorted by time and date  
+`ls -Glp` - list files in long format, marking directories with '/'  
 
 ---
 
@@ -59,11 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 'ls -1' - list files, 1 per line
-'ls -d' - list only directories
-'ls -R' - list sub-directories
-'ls -g' - list in long format without the owner
-'ls -r' - list files in reverse order
+> > `ls -1` - list files, 1 per line  
+`ls -d` - list only directories  
+`ls -R` - list sub-directories  
+`ls -g` - list in long format without the owner  
+`ls -r` - list files in reverse order  
 
 ---
 
