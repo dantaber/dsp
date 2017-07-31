@@ -71,7 +71,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` executes a command on all of the items that are read from standard input. It's useful for repeating some operation on many files at once.
+  
+For example, if I wanted to search my ds directory for every Python file where I mention 'nutmeg', I could type:
+
+`find ds -name "*.py" | xargs grep "nutmeg"`
 
  
 
