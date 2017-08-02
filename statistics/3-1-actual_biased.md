@@ -1,5 +1,8 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
+**PYTHON CODE**  
+  
+
 ```Python
 from __future__ import print_function, division
 %matplotlib inline
@@ -8,12 +11,14 @@ import nsfg
 import first
 import thinkstats2
 import thinkplot
+import pylab
 
 # Read data
 df = nsfg.ReadFemResp()
 
 # Actual distribution
 pmf = thinkstats2.Pmf(df.numkdhh, label='actual')
+
 thinkplot.PrePlot(2)
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Number of kids', ylabel='PMF')
@@ -31,6 +36,7 @@ def BiasPmf(pmf, label):
     return new_pmf
 
 biased_pmf = BiasPmf(pmf, label='observed')
+
 thinkplot.PrePlot(2)
 thinkplot.Pmf(biased_pmf)
 thinkplot.Config(xlabel='Number of kids', ylabel='PMF')
@@ -41,6 +47,8 @@ bias = biased_pmf.Mean()
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Number of kids', ylabel='PMF')
+
+pylab.savefig('Ch 3, Exercise 1.png')
 
 print ("The actual mean number of kids per household =", round(actual, 3))
 print ("The biased estimate of the mean numnber of kids per household =", round(bias, 3))
