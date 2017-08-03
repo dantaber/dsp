@@ -4,7 +4,7 @@
 
 ```Python
 
-import import numpy as np
+import numpy as np
 import thinkstats2
 import thinkplot
 import pylab
@@ -27,7 +27,5 @@ thinkplot.Show()
 ```
 **ANSWER**  
 The CDF and PMF figures both clearly suggest that the distribution is uniform. As you'd expect, the PMF indicates that numbers are equally likely to appear (p=.001) and the CDF indicates that the cumulative distribution increases at a steady rate.  
-  
-![Ch4_Ex2_CDF](https://github.com/dantaber/dsp/blob/master/img/Ch4_Ex2_CDF.png?raw=true)
-![Ch4_Ex2_PMF](https://github.com/dantaber/dsp/blob/master/img/Ch4_Ex2_PMF.png?\
-raw=true)
+![Ch4_Ex2_PMF](https://github.com/dantaber/dsp/blob/master/img/Ch4_Ex2_PMF.png?raw=true)  
+![Ch4_Ex2_CDF](https://github.com/dantaber/dsp/blob/master/img/Ch4_Ex2_CDF.png?raw=true)  
