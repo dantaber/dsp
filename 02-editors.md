@@ -89,7 +89,4 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I'll probably learn emacs for the same reason - it would be nice to use the same for text and graphics. I've used Spyder in the past and it felt very intuitive (but possibly more limited?) As for customizing emacs ... I'll get back to you on that one.
-
-
- 
+>> Even though the learning curve is steep, I'll probably learn Emacs for its versatility. It would be nice to use the same for text and graphics. I've used Spyder in the past and it felt very intuitive (but possibly more limited?) As I've gotten started with Emacs, the most useful shortcuts are simply for moving the cursor around (e.g., C-n to move down one line and C-p to move up one line.) The most interesting feature, by far, is being able to play Tetris just by typing ```M-x tetris```. What more could you possibly ask for??  
